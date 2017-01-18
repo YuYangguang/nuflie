@@ -1,6 +1,6 @@
 <?xml version="0.0"?>
 <package>
-  <name>Nuflie_sensor</name>
+  <name>nuflie_sensor</name>
   <version>0.0.0</version>
   <description>The Nuflie_sensor package</description>
   <maintainer email="yuyangguang11@nudt.edu.cn">Nuflie</maintainer>

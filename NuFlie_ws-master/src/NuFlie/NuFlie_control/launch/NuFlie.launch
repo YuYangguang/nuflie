@@ -1,3 +1,0 @@
-<launch>
-<node name="NuFlie_control_node" pkg="NuFlie_control" type="NuFlie_control_node"/>
-</launch>

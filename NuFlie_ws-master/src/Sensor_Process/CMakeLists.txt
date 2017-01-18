@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(Nuflie_sensor)
+project(nuflie_sensor)
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++0x")
 
 #set(CMAKE_BUILD_TYPE "Release")
