@@ -27,6 +27,7 @@ if(_res EQUAL 0)
   include(${catkin_EXTRAS_DIR}/all.cmake NO_POLICY_SCOPE)
   add_subdirectory("${_out}")
 
+
 else()
   # use either CMAKE_PREFIX_PATH explicitly passed to CMake as a command line argument
   # or CMAKE_PREFIX_PATH from the environment
