@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+ <node name="kbcontrol" pkg="keyboard_pub" type="kbcontrol" output="screen">
+ </node>
+  <include file="$(find vicon_bridge)/launch/vicon.launch"/>
+</launch>

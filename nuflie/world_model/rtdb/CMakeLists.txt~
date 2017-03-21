@@ -1,0 +1,21 @@
+add_subdirectory(parser)
+
+add_library(rtdb STATIC rtdb_api.cpp)
+
+add_library(multicast STATIC multicast.cpp)
+
+add_executable(comm comm.cpp)
+target_link_libraries(comm ${CMAKE_THREAD_LIBS_INIT} rtdb  multicast ${catkin_LIBRARIES} world_model)
+
+add_executable(read read.cpp)
+target_link_libraries(read rtdb  ${catkin_LIBRARIES} world_model)
+
+add_executable(write write.cpp)
+target_link_libraries(write rtdb  ${catkin_LIBRARIES} world_model)
+
+add_executable(test1 test1.cpp)
+target_link_libraries(test1 rtdb  ${catkin_LIBRARIES} world_model)
+
+#add_executable(DB_free DB_free.cpp)
+#target_link_libraries(DB_free rtdb  ${catkin_LIBRARIES} world_model)
+
